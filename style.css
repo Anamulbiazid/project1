@@ -1,0 +1,131 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+#first-heading{
+    border-left: 4px solid;
+    border-image: linear-gradient( rgba(255, 68, 0, 0.904), rgba(255, 123, 0, 0.815));
+    border-image-slice: 1;
+    padding-left: 10px;
+    font-family: 'Redressed';
+
+}
+.fancy-color{
+    color: rgb(248, 163, 78);
+}
+.top-section{
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.top-section img{
+    width: 80%;
+}
+.diff-section{
+    display: flex ;
+    margin-bottom: 110px;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgba(226, 67, 27, 0.87), rgba(222, 160, 44, 0.733));
+    padding: 10px 30px;
+    color: rgb(248, 248, 248);
+    border-radius: 6px;
+    font-weight: 500;
+}
+.head-center{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 11, 43);
+}
+.three-boxes{
+    padding-left: 8%;
+    padding-right: 8%;
+    border-radius: 5px;
+}
+#mission-box{
+    background-color: rgba(247, 0, 255, 0.13);
+}
+#vission-box{
+    background-color: rgba(255, 228, 196, 0.247);
+}
+#goals-box{
+    background-color: rgba(216, 103, 22, 0.212);
+}
+.box-img img{
+    width: 100px;
+    height: 100px;
+    padding-top: 15px;
+}
+.box-img{
+    display: inline;
+    margin: 20px;
+    padding-left: 15px;
+    border-radius: 15px;
+    width: 33%;
+}
+.third-section{
+    width: 40%;
+}
+.third-section img{
+    width: 60%;
+    padding-left: 25%;
+}
+.third-banner{
+    background-image: url(style/shape-5.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: 34% 100%;
+}
+h1{
+    font-weight: 700;
+    font-size: 35px;
+}
+.fourth-section{
+    width: 100%;
+    padding-left: 10%;
+}
+.fourth-section img{
+    width: 75%; 
+}
+.fourth-banner{
+    background-image: url(style/shape-6.png);
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+    background-position: 95% 30%;
+}
+.fifth-section{
+    width: 100%;
+    padding-right: 10%;
+}
+.fifth-section img{
+    width: 40%;
+    padding-left: 250px;
+}
+.fifth-banner{
+    background-image: url(style/shape-3.png), url(style/shape-3.png), url(style/shape-3.png);
+    background-size: 120px 120px, 50px 50px, 70px 70px;
+    background-repeat: no-repeat, no-repeat, no-repeat; 
+    background-position: 17% 17%, 32% 75%, 19% 100%;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    height: 160px;
+}
+footer p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+#f-w{
+    color: rgb(221, 220, 220);
+}
+#f-r{
+    color: rgb(248, 76, 64);
+}
